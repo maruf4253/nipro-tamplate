@@ -20,7 +20,7 @@
   });
 
 
-   $('.owl-carousel').owlCarousel({
+  /* $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
@@ -39,4 +39,18 @@
                 items:1
             }
         }
-    });
+    });*/
+
+
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      dots:true,
+      responsive:{
+          600:{
+              items:3
+          }
+         
+      }
+  })
